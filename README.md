@@ -1,6 +1,6 @@
 # Flask + SQLite To-Do List
 
-A minimalist and adorable web-based to-do list built using **Flask** and **SQLite**. Add and delete tasks with a cozy UI designed to make your productivity feel peaceful and fun 🌿
+A minimalist to-do list built using **Flask** and **SQLite**. Add and delete tasks with a cozy UI designed to make your productivity feel peaceful and fun.
 
 ---
 
