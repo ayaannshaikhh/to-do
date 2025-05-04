@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>my to-do list</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>my to-do list</h1>
+    <form action="/" method="POST">
+        <input type="text" name="Task" placeholder="add a new task..." required>
+        <button type="submit">new task</button>
+    </form>
+
+    {% for task in tasks %}
+    <div class="task-card">
+        <div class="task-title">{{ task[1] }}</div>
+        <form action="/delete/{{ task[0] }}" method="POST" class="delete-form">
+            <button type="submit">delete</button>
+        </form>
+    </div>
+    {% endfor %}
+</body>
+</html>
