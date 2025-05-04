@@ -4,7 +4,7 @@ A minimalist to-do list built using **Flask** and **SQLite**. Add and delete tas
 
 ---
 
-## ✨ Features
+## Features
 
 - 📝 Add to-do items  
 - ❌ Delete tasks with a single click  
@@ -13,7 +13,7 @@ A minimalist to-do list built using **Flask** and **SQLite**. Add and delete tas
 
 ---
 
-## 💻 Tech Stack
+## Tech Stack
 
 - **Frontend**: HTML5, CSS3, Google Fonts (Inter)  
 - **Backend**: Flask (Python)  
@@ -21,7 +21,7 @@ A minimalist to-do list built using **Flask** and **SQLite**. Add and delete tas
 
 ---
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone this repository
 ```bash
@@ -50,7 +50,7 @@ Visit `http://127.0.0.1:5000` in your browser
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 ├── app.py
@@ -63,7 +63,7 @@ Visit `http://127.0.0.1:5000` in your browser
 
 ---
 
-## 🧠 Ideas for Expansion
+## Ideas for Expansion
 
 - ✅ Add task completion toggle  
 - 📅 Due dates and reminders  
